@@ -38,7 +38,7 @@ public class AccountHeadController {
      */
     @GetMapping(value = "/getMaxId")
     public BaseResponseInfo getMaxId(HttpServletRequest request) {
-        System.out.println("修改BUG");
+        System.out.println("修改BUG再次此时");
         BaseResponseInfo res = new BaseResponseInfo();
         Map<String, Object> map = new HashMap<String, Object>();
         try {
