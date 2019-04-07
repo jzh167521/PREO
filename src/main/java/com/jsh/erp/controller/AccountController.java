@@ -38,6 +38,7 @@ public class AccountController {
      */
     @GetMapping(value = "/findBySelect")
     public String findBySelect(HttpServletRequest request) {
+        System.out.println("修改数据");
         String res = null;
         try {
             List<Account> dataList = accountService.findBySelect();
